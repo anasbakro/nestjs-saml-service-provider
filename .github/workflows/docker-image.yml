@@ -23,7 +23,7 @@ jobs:
         aws-region: us-east-1
         
     - name: Login to Amazon ECR
-      id: login-ecr-publi
+      id: login-ecr-public
       uses: aws-actions/amazon-ecr-login@v1
       with:
           registry-type: public
